@@ -1,0 +1,42 @@
+使用设备: cuda
+Epoch 01 | Val Loss: 1.2941 | Val Acc: 52.47%
+  --> 发现新高！保存 best.pt (Acc: 52.47%)
+Epoch 02 | Val Loss: 1.0456 | Val Acc: 62.21%
+  --> 发现新高！保存 best.pt (Acc: 62.21%)
+Epoch 03 | Val Loss: 0.9075 | Val Acc: 67.94%
+  --> 发现新高！保存 best.pt (Acc: 67.94%)
+Epoch 04 | Val Loss: 0.8354 | Val Acc: 70.77%
+  --> 发现新高！保存 best.pt (Acc: 70.77%)
+Epoch 05 | Val Loss: 0.7936 | Val Acc: 72.22%
+  --> 发现新高！保存 best.pt (Acc: 72.22%)
+Epoch 06 | Val Loss: 0.7506 | Val Acc: 73.74%
+  --> 发现新高！保存 best.pt (Acc: 73.74%)
+Epoch 07 | Val Loss: 0.7083 | Val Acc: 75.14%
+  --> 发现新高！保存 best.pt (Acc: 75.14%)
+Epoch 08 | Val Loss: 0.7296 | Val Acc: 75.45%
+  --> 发现新高！保存 best.pt (Acc: 75.45%)
+Epoch 09 | Val Loss: 0.6866 | Val Acc: 76.13%
+  --> 发现新高！保存 best.pt (Acc: 76.13%)
+Epoch 10 | Val Loss: 0.6869 | Val Acc: 76.15%
+  --> 发现新高！保存 best.pt (Acc: 76.15%)
+Epoch 11 | Val Loss: 0.6608 | Val Acc: 77.50%
+  --> 发现新高！保存 best.pt (Acc: 77.50%)
+Epoch 12 | Val Loss: 0.6380 | Val Acc: 77.90%
+  --> 发现新高！保存 best.pt (Acc: 77.90%)
+Epoch 13 | Val Loss: 0.6456 | Val Acc: 77.61%
+Epoch 14 | Val Loss: 0.6541 | Val Acc: 77.73%
+Epoch 15 | Val Loss: 0.6177 | Val Acc: 79.07%
+  --> 发现新高！保存 best.pt (Acc: 79.07%)
+Epoch 16 | Val Loss: 0.6165 | Val Acc: 78.74%
+Epoch 17 | Val Loss: 0.6019 | Val Acc: 79.39%
+  --> 发现新高！保存 best.pt (Acc: 79.39%)
+Epoch 18 | Val Loss: 0.6144 | Val Acc: 78.99%
+Epoch 19 | Val Loss: 0.5800 | Val Acc: 80.10%
+  --> 发现新高！保存 best.pt (Acc: 80.10%)
+Epoch 20 | Val Loss: 0.5884 | Val Acc: 80.12%
+  --> 发现新高！保存 best.pt (Acc: 80.12%)
+
+========= 训练总结 =========
+总用时: 514.1 秒
+最佳轮次: Epoch 20
+最佳验证准确率: 80.12%

@@ -1,5 +1,42 @@
+# ---------- 数据集 ----------
+# 由代码里的 download=True 自动下载，不进仓库
+# 只忽略 week_2 下面那些大的（CIFAR-10 / MNIST 各 60~340 MB）
+# week_1 的 data/gdp.csv 只有 15 KB，是要留着让别人能复现的，所以不忽略
+week_2/**/data/
+*.tar.gz
+*.idx3-ubyte
+*.idx3-ubyte.gz
+
+# ---------- 模型权重 ----------
+# 训练产物，跑一次就有，不进仓库
+*.pt
+*.pth
+*.onnx
+
+# ---------- Python ----------
 __pycache__/
 *.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+
+# ---------- 编辑器 ----------
 .vscode/
 .idea/
-.ipynb_checkpoints/
+*.swp
+
+# ---------- 系统 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- 说明 ----------
+# 故意没有忽略 *.log：train_run.log / ablation.log 是训练结果的证据，值得提交
+# 也故意没有忽略 *.png：训练曲线图被 README 引用

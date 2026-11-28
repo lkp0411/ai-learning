@@ -1,0 +1,24 @@
+# CIFAR-10 图像分类 —— 依赖清单
+# 由 `pip freeze` 导出后手工裁剪，只保留本项目真正用到的包
+# 环境：Python 3.11.18 / Windows 11
+#
+# 安装：pip install -r requirements.txt
+#
+# 注意：torch / torchvision 带 +cu128 后缀，必须配合下面的 extra-index-url 才能装上。
+# 如果你的机器没有 NVIDIA 显卡，或者想要 CPU 版，把这两行换成：
+#     torch==2.11.0
+#     torchvision==0.26.0
+# 并删掉 --extra-index-url 那一行。
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+
+# 数据与绘图
+numpy==2.4.6
+pillow==13.0.0
+matplotlib==3.11.2
+
+# 上一周 pandas 项目留下的，本文件夹的脚本不直接依赖，可删
+pandas==3.1.1
